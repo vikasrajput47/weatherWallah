@@ -1,0 +1,285 @@
+*{   margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+body{
+      background-image: url('img/1.jpg');
+    background-position: center;
+
+    background-repeat: no-repeat;
+ 
+}
+.navBar{
+    /* border: 2px solid black; */
+    filter: drop-shadow(2px 4px 6px black);
+    display: flex;
+    flex-direction: row;
+    background-color:#8dc7f9;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 1px 1px 23px 0px #d0e5fa;
+}
+.navItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   /* margin: 0 1.5rem;     */
+   height: inherit;
+   list-style: none;
+   color: white;
+   font-family: cursive;
+   font-size: 1.3rem;
+   /* border: 2px solid red; */
+  
+}
+.navItems img{
+    margin-right: 1rem;
+}
+.name a{
+    text-decoration: none;
+    color: white;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit; 
+    width: 12rem;
+   /* border: 2px solid blue; / */
+
+}
+.name .navItems img{
+    width: 4rem;
+    height: inherit;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;   
+    /*  border: 2px solid orange; */
+    align-items: center; 
+    width: 18rem;
+}
+.nav input{
+    border-radius: 2rem;
+    /* color: white; */
+    background-color: #c4e1e8;
+    /* border: none; */
+    padding: .5rem;
+}
+.btn{
+    margin-right: 2.4rem;
+    padding: .4rem;
+    cursor: pointer;
+    background-color: #fab03c;
+    border-radius: 1rem;
+    color: #c4e1e8;
+}
+.nav button{
+    transition: background-color 0.3s;
+}
+.nav button:hover{
+    background-color: white;
+}
+
+
+
+
+/* midSection */
+
+
+
+
+
+
+
+/* footer
+ */
+ .footer{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: start;*/
+    align-items: center; 
+   margin-top: 5.3rem;
+    /* border: 2px solid black; */
+    background-color: #8dc7f9;
+    height: 4.3rem;
+    /* width: 100%; */
+ }
+ .footerContent{
+  margin-left: 8rem;
+ }
+ .contactCol{
+    display: flex;
+
+ }
+ .contact{
+   /* border: 2px solid red; */
+   height: 2rem;
+   width: 2rem;
+   list-style: none;
+   margin: 0.4rem;
+ }
+ .contact a{
+    height: inherit;
+ }
+ .contact a img{
+  height: inherit;
+ }
+
+
+
+
+
+
+/* c css */
+.midSection{
+    /* border: 2px solid black; */
+    height: 30rem;
+    width: inherit;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+.heading{
+/* border: 2px solid blue; */
+font-size: 5rem;
+}
+.weathers{
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.containers{
+    display: flex;
+    flex-direction: column;
+    height: 16rem;
+    /* border: 2px solid red; */
+    width: 19rem;
+    margin: 1rem;
+    /* margin: 0 1rem;
+    padding: 0 0.6rem; */
+}
+.containerHeading{
+    border-radius: 0.5rem;
+    display: flex;
+    padding: 0.5rem;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: #8dc7f9;
+    justify-content: space-between;
+    align-items: center;
+}
+.city{
+    
+    /* border: 2px solid red; */
+  font-size: 3rem;
+ 
+
+}
+.temp{
+    /* border: 2px solid orange; */
+    font-size: 2.4rem;
+}
+.containerContent{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    /* border: 2px solid red; */
+    background-color: #d1e6f9;
+    border-radius: 0.5rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.tempInfo{
+    list-style: none;
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+
+
+
+
+/* api css */
+
+.mainContainerBox{
+    /* border: 2px solid red; */
+    width: inherit;
+    height: 24rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.headingCity{
+    /* border: 2px solid blue; */
+    height: 4rem;
+    font-size: 3rem;
+   text-align: center;
+}
+.cityInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    height: 20rem;
+}
+
+.cityInfoContent{
+    /* border: 2px solid black; */
+    /* background-color: #dceaf9; */
+    height: 15rem;
+    width: 15rem;
+    margin: 1rem;
+    list-style: none;
+    text-align: center;
+}
+.cityInfoContenttopic1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    /* border: 2px solid red; */
+    background-color: #8dc7f9;
+    height: 3rem;
+    border-radius: 0.4rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.cityInfoContenttopic2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    /* font-weight: bold; */
+}
+.cityInfoContenttopic{
+    font-size: 1.3rem;
+}
+.cityBox{
+        filter: drop-shadow(2px 4px 6px black);
+        background-color: #d1e6f9;
+        margin-top: 0.6rem;
+        border-radius: 0.4rem;
+        /* border: 2px solid red; */
+        height: 11rem;
+        display: flex;
+        flex-direction: column;
+        
+}
+
+
+
+
+.footer1{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    background-color: #8dc7f9;
+    height: 4.3rem;
+    margin-top: 14.3rem;
+}
